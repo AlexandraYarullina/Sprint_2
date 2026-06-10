@@ -14,10 +14,6 @@ public class Apple extends Food{
         this.isVegetarian=true;
     }
 
-    private String getColor(){
-        return color;
-    }
-
     @Override
     public double getDiscount() {
         return Objects.equals(color, RED) ?
