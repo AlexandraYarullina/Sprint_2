@@ -13,7 +13,7 @@ public class Apple extends Food{
         this.color=color;
         this.isVegetarian=true;
     }
-
+    //Для красных яблок (colour равно "red") скидка должна быть равна 60%: соответствующий метод возвращает значение 60.
     @Override
     public double getDiscount() {
         return Objects.equals(color, RED) ?
