@@ -22,6 +22,7 @@ public class Main
         Food appleGreen = new Apple(8, 60, Color.GREEN);
         System.out.println("Яблоки зелёные в количестве " + appleGreen.getAmount() + " кг по цене " + appleGreen.getPrice() + " рублей за кг;");
 
+        //Массив продуктов из этих элементов
         Food[] foods = {meat, appleRed, appleGreen};
 
         ShoppingCart shoppingCart = new ShoppingCart(foods);
